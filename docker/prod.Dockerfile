@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk add git openjdk17
 
-RUN git clone ?
+RUN git clone https://github.com/snow-month/calorie-count.git
 
 WORKDIR /calorie-count
 
